@@ -6,69 +6,92 @@
 
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
+	<!------------------ Google Font ----------------------->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+	<!------------------ Bootstrap 4.0.0 -------------------->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<!--------------------- Font-awesome CDN ------------------>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
 
-	<h1>Gogglen's</h1>
-	<div class='nav-wrapper'>
+<nav class="navbar navbar-expand-lg">
+	<div class="navbar-brand text-dark"><h1>Gogglen's</h1></div>
 		
-	<h3>
-		<span>
-			<a href="#">Sunglasses</a> &nbsp;
-			<a href="#">Bluelens Glasses</a> &nbsp;
-			<a href="#">Contact lens</a> &nbsp;
+	<div class="mr-auto"></div>
+
+	<ul class="navbar-nav">
+		<li class="navbar-item"> <input type="text" name="searchbar" placeholder=" search"> 				</li>
+		<li class="navbar-item"> <a class="navbar-link" href='#first'>About			</a></li>
+		<li class="navbar-item"> <a class="navbar-link" href='#'>Service			</a></li>
+		<li class="navbar-item"> <a class="navbar-link" href='#'>Cart				</a></li>
+	</ul>
+</nav>
+
+
+	<div class="wrap">  <a class="tags" href="#">Sunglasses			</a></div>
+	<div class="wrap">  <a class="tags" href="#">Bluelens			</a></div>
+	<div class="wrap">  <a class="tags" href="#">Contact lens		</a></div>
+
+	<hr>
+	<h5>Relax your eyes under the Shadow of Gogglens.</h5>
+
+	<br>
+	<hr>
+
+	<div class="head premium">
+		<h2>Premium collection</h2>
+		
+		<span> 
+			<img src="images/premium_1.jpg">
 		</span>
-		<span>
-			<a href='#first'>About</a> &nbsp;
-			<a href='#second'>Service</a> &nbsp;
-			<a href='#'>Cart</a> &nbsp;
+		
+		<span> 
+			<img src="images/premium_2.jpg">
 		</span>
-	</h3>
+		
+		<span> 
+			<img src="images/premium_3.jpg">
+		</span>
+		
+		<span> 
+			<img src="images/premium_4.jpg">
+		</span>
+		
+		<span> 
+			<img src="images/premium_5.jpg">
+		</span>
+		
+		<span> 
+			<img src="images/premium_6.jpg">
+		</span>
 
-	<hr>
-
-	<h1><u>Introduction</u></h1>
-
-
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	<br>
-	<hr>
-	<br>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-	<hr>
-	<br>
-
-	<div class="sunglass">
+	</div>
+	
+	<div class="head sunglass">
 		<h2>Sunglasses</h2>
-		<img src="images/Sunglass_1.jpg" width="33%" height="300px">
-		<img src="images/Sunglass_2.jpg" width="33%" height="300px">
-		<img src="images/Sunglass_3.jpg" width="33%" height="300px">
-		<img src="images/Sunglass_4.jpg" width="33%" height="300px">
-		<img src="images/Sunglass_5.jpg" width="33%" height="300px">
-		<img src="images/Sunglasses.jpg" width="33%" height="300px">
+		<img src="images/Sunglass_1.jpg">
+		<img src="images/Sunglass_2.jpg">
+		<img src="images/Sunglass_3.jpg">
+		<img src="images/Sunglass_4.jpg">
+		<img src="images/Sunglass_5.jpg">
+		<img src="images/Sunglasses.jpg">
 	<div>
 
-	<div class="contactlens">
+	<div class="head contactlens">
 		<h2>Contact lenses</h2>
 		<img src="images/contactlens_1.jpg" width="33%" height="300px">
 		<img src="images/contactlens_2.jpg" width="33%" height="300px">
 	</div>
 
-	<div class="winter">
+	<div class="head winter">
 		<h2>Mountain Goggles</h2>
 		<img src="images/winter_1.jpg" width="33%" height="300px">
 		<img src="images/winter_2.jpg" width="33%" height="300px">
@@ -76,24 +99,30 @@
 		<img src="images/winter_4.jpg" width="33%" height="300px">
 	</div>
 
-	<form action="mailto:mxxx@gmail.com">
+	<div class="card" id="contact">
+		<div class="card-header bg-light text-dark">Contact us</div>
+		<form action="mailto:mxxx@gmail.com">
 
-	  <label for="fname">First name:</label><br>
-	  <input type="text" placeholder="Mayank"><br><br>
+		  <label class="card-body" for="fname">First name:</label>
+		  <input type="text" placeholder="Mayank">
 
-	  <label for="lname">Last name:</label><br>
-	  <input type="text" placeholder="choudhary"><br><br>
+		  <label class="card-body" for="lname">Last name:</label>
+		  <input type="text" placeholder="choudhary"><br>
 
-	  <label for="mail">Email :</label><br>
-	  <input type="text" placeholder="mxxx@gmail.com"><br><br>
+		  <label class="card-body" for="mail">Email :</label>
+		  <input type="text" placeholder="mxxx@gmail.com">
 
-	  <label for="fname">Message</label><br>
-	  <textarea></textarea>
+		  <label class="card-body" for="phone">Mobile :</label>
+		  <input type="text" placeholder="99XXXXXXXX">
 
-	  <input type="submit" value="Submit">
-	</form>
+		  <label class="card-body" for="fname">Message</label>
+		  <textarea type="text" name="message"></textarea><br>
 
-	<div class="contact">  
+		  <div class="submit"><input type="submit" value="Submit"><div>
+		</form>
+	</div>
+
+	<div class="social">  
         <i class="fa-2x fab fa-facebook-f"></i> &emsp;
         <i class="fa-2x fab fa-linkedin-in"></i> &emsp;
         <i class="fa-2x far fa-envelope"></i> &emsp;
