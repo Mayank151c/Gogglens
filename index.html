@@ -4,100 +4,228 @@
 	<meta charset="utf-8">
 	<title>Googglen's</title>
 
-	<link rel="stylesheet" type="text/css" href="styles.css">
-
-	<!------------------ Google Font ----------------------->
+<!--
+		``````````````````````````
+	 	        Google Font
+	 	``````````````````````````
+-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 
-	<!------------------ Bootstrap 4.0.0 -------------------->
+<!--
+		``````````````````````````
+	 	    Bootstrap 4.0.0
+	 	``````````````````````````
+-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	<!--------------------- Font-awesome CDN ------------------>
+<!--
+		``````````````````````````
+	 	    Font-awesome CDN 
+	 	``````````````````````````
+-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg">
-	<div class="navbar-brand text-dark"><h1>Gogglen's</h1></div>
+
+<!--
+		``````````````````````````
+	 	       Navigation bar 
+	 	``````````````````````````
+-->
+<nav class="navbar navbar-expand-lg bg-primary">
+	<div class="navbar-brand text-light"><h1>Gogglen's</h1></div>
 		
 	<div class="mr-auto"></div>
 
 	<ul class="navbar-nav">
-		<li class="navbar-item"> <input type="text" name="searchbar" placeholder=" search"> 				</li>
-		<li class="navbar-item"> <a class="navbar-link" href='#first'>About			</a></li>
-		<li class="navbar-item"> <a class="navbar-link" href='#'>Service			</a></li>
-		<li class="navbar-item"> <a class="navbar-link" href='#'>Cart				</a></li>
+		<li class="navbar-item"> 
+			<input type="text" name="searchbar" placeholder=" search"> 
+			<a href="#"><img src="images/search.png"></a>
+		</li>
+		<li class="navbar-item"> <a class="navbar-link" href='#'>About	 </a></li>
+		<li class="navbar-item"> <a class="navbar-link" href='#'>Service </a></li>
+		<li class="navbar-item"> <a class="navbar-link" href='#'>Cart	 </a></li>
 	</ul>
 </nav>
 
+<nav class="second-nav">
+	<div class="wrap">  <a class="tags" href="#sunglass">Sunglasses	</a></div>
+	<div class="wrap">  <a class="tags" href="#eyelens">Bluelens			</a></div>
+	<div class="wrap">  <a class="tags" href="#snowgoggles">SnowGoggles		</a></div>
+</nav><br>
 
-	<div class="wrap">  <a class="tags" href="#">Sunglasses			</a></div>
-	<div class="wrap">  <a class="tags" href="#">Bluelens			</a></div>
-	<div class="wrap">  <a class="tags" href="#">Contact lens		</a></div>
 
-	<hr>
-	<h5>Relax your eyes under the Shadow of Gogglens.</h5>
 
-	<br>
-	<hr>
+<!-- 
+		`````````````````````````
+				Sunglasses
+		`````````````````````````
+ -->
+<div class="heading" id="sunglass">Sunglasses</div><br>
 
-	<div class="head premium">
-		<h2>Premium collection</h2>
+<ul>
+	<li>prevent certain eye diseases related to the sun.</li>
+	<li>avoid headaches and migraines.</li>
+	<li>see past the surface of water without reflective glare.</li>
+</ul>
+
+<div class="group-img">
 		
-		<span> 
-			<img src="images/premium_1.jpg">
-		</span>
 		
-		<span> 
-			<img src="images/premium_2.jpg">
-		</span>
+		<figure class="col-lg-4 col-sm-6"> 
+			<img src="images/premium_1.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>brown</span>		<span>antiglare</span></figcaption>
+		</figure>
 		
-		<span> 
-			<img src="images/premium_3.jpg">
-		</span>
+		<figure class="col-lg-4 col-sm-6"> 
+			<img src="images/premium_2.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>black</span>		<span>antiglare</span></figcaption>
+		</figure>
 		
-		<span> 
-			<img src="images/premium_4.jpg">
-		</span>
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/premium_3.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>orange</span>		<span>antiglare</span></figcaption>
+		</figure>
 		
-		<span> 
-			<img src="images/premium_5.jpg">
-		</span>
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/premium_4.jpg" class="img-fluid">	<figcaption>
+				<span>sunglass</span>		<span>blue</span>		<span>antiglare</span></figcaption>
+		</figure>
 		
-		<span> 
-			<img src="images/premium_6.jpg">
-		</span>
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/premium_5.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>violet</span>		<span>antiglare</span></figcaption>
+		</figure>
+		
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/premium_6.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>darkbrown</span>		<span>antiglare</span>	</figcaption>
+		</figure>
 
-	</div>
-	
-	<div class="head sunglass">
-		<h2>Sunglasses</h2>
-		<img src="images/Sunglass_1.jpg">
-		<img src="images/Sunglass_2.jpg">
-		<img src="images/Sunglass_3.jpg">
-		<img src="images/Sunglass_4.jpg">
-		<img src="images/Sunglass_5.jpg">
-		<img src="images/Sunglasses.jpg">
-	<div>
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/Sunglass_1.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>gold</span>		<span>antiglare</span></figcaption>
+		</figure>
 
-	<div class="head contactlens">
-		<h2>Contact lenses</h2>
-		<img src="images/contactlens_1.jpg" width="33%" height="300px">
-		<img src="images/contactlens_2.jpg" width="33%" height="300px">
-	</div>
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/Sunglass_2.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>lightbrown</span>		<span>antiglare</span></figcaption>
+		</figure>
 
-	<div class="head winter">
-		<h2>Mountain Goggles</h2>
-		<img src="images/winter_1.jpg" width="33%" height="300px">
-		<img src="images/winter_2.jpg" width="33%" height="300px">
-		<img src="images/winter_3.jpg" width="33%" height="300px">
-		<img src="images/winter_4.jpg" width="33%" height="300px">
-	</div>
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/Sunglass_3.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>black</span>		<span>antiglare</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/Sunglass_4.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>honey</span>		<span>antiglare</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/Sunglass_5.jpg" class="img-fluid">	<figcaption>
+			<span>sunglass</span>		<span>skyblue</span>		<span>antiglare</span></figcaption>
+		</figure>
+
+</div>
+<br><hr><br>
+
+
+<!-- 
+		`````````````````````````
+			Computer Goggles
+		`````````````````````````
+ -->
+<div class="heading" id="bluelens">Computer Goggles</div><br>
+
+<ul>
+	<li>reduce eye strain and headache form blue light.</li>	
+	<li>prevention from sleep disruption light.</li>	
+	<li>resuction of blue light.</li>	
+</ul><br>
+
+<div class="group-img">
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/computer_1.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>80% filter</span>		<span>softplastic</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/computer_2.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>90% filter</span>		<span>antiglare</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/computer_3.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>100% filter</span>		<span>steel</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/computer_4.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>90% filter</span>		<span>softplastic</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/computer_5.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>80% filter</span>		<span>antiglare</span></figcaption>
+		</figure>
+</div>
+<br><hr><br>
+
+
+<!-- 
+		````````````````````
+			SnowGoggles
+		````````````````````
+ -->
+<div class="heading"  id="snowgoggles">Snow Goggles</div><br>
+
+<ul>
+	<li>insulate face against extream cold.</li>
+	<li>polarized lenses are great for reducing glare and ice reflection</li>
+</ul><br>
+
+<div class="group-img">
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/winter_1.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>80% filter</span>		<span>softplastic</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/winter_2.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>90% filter</span>		<span>antiglare</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/winter_3.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>100% filter</span>		<span>steel</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/winter_4.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>90% filter</span>		<span>softplastic</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/winter_5.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>80% filter</span>		<span>antiglare</span></figcaption>
+		</figure>
+
+		<figure class="col-lg-4 col-sm-6">
+			<img src="images/winter_6.jpg" class="img-fluid">	<figcaption>
+			<span>bluelens</span>		<span>80% filter</span>		<span>antiglare</span></figcaption>
+		</figure>
+</div>
+<br><hr><br>
 
 	<div class="card" id="contact">
 		<div class="card-header bg-light text-dark">Contact us</div>

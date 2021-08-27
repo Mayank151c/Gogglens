@@ -1,25 +1,71 @@
-body {
-	margin: 4rem;
-} 
-
 a {
 	text-decoration: none;
 }
 
-img {
-	margin: 1rem;
-	border-radius: 2rem;
-	width: 30%;
-	height: 15rem;
+figure img {
+	width: 40rem;
+	height: 20rem;
+}
+
+ul {
+	list-style-type: square;
+}
+
+/*
+		``````````````````````
+			Navigation bar
+		``````````````````````
+*/
+.navbar {
+	padding: 0rem 1rem;
 }
 
 .navbar-item {
-	margin-left: 0.8rem;
+	line-height: 2.25rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
 }
 
-.head {
-	margin: 2rem;
+.navbar-item img {
+	width: 1.5rem;
+	height: 1.5rem;
 }
+
+.navbar-link {
+	color: white;
+	line-height: 3rem;
+}
+
+.second-nav .wrap {
+	display: inline;
+	margin: 1rem;
+}
+
+.second-nav {
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	background: whitesmoke;
+}
+
+.heading {
+	font-size: 2rem;
+}
+
+figcaption span {
+	background: #00112288;
+	border-radius: 1rem;
+	padding: 0.2rem 0.8rem;
+	margin: 3rem 0.7rem;
+	color: white;
+	line-height: 5px;
+}
+
+.group-img {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
 .social {
 	margin: 2rem auto;
