@@ -3,8 +3,8 @@ a {
 }
 
 figure img {
-	width: 40rem;
 	height: 20rem;
+	width: 40rem;
 }
 
 ul {
@@ -21,14 +21,14 @@ ul {
 }
 
 .navbar-item {
+	font-size: 1.1rem;
 	line-height: 2.25rem;
 	margin-left: 1rem;
-	font-size: 1.1rem;
 }
 
 .navbar-item img {
-	width: 1.5rem;
 	height: 1.5rem;
+	width: 1.5rem;
 }
 
 .navbar-link {
@@ -42,10 +42,10 @@ ul {
 }
 
 .second-nav {
+	background: whitesmoke;
 	position: sticky;
 	top: 0px;
 	z-index: 2;
-	background: whitesmoke;
 }
 
 
@@ -61,10 +61,10 @@ ul {
 figcaption span {
 	background: #00112288;
 	border-radius: 1rem;
-	padding: 0.2rem 0.8rem;
-	margin: 3rem 0.7rem;
 	color: white;
 	line-height: 5px;
+	margin: 3rem 0.7rem;
+	padding: 0.2rem 0.8rem;
 }
 
 .group-img {
@@ -96,20 +96,17 @@ figcaption span {
 		font-size: 130%;
 	}
 	span {
-		padding: 0rem;
 		font-size: 80%;	
+		padding: 0rem;
 	}
 	.navbar-brand h1 {
 		font-size: 220%;
 	}
-	.card label {
+	.card label,.social i {
 		font-size: 110%;
 	}
 	.wrap {
 		font-size: 100%;
-	}
-	.social i {
-		font-size: 110%;
 	}
 }
 
