@@ -48,6 +48,12 @@ ul {
 	background: whitesmoke;
 }
 
+
+/*
+		````````````````````````
+			Images section
+		````````````````````````
+*/
 .heading {
 	font-size: 2rem;
 }
@@ -67,6 +73,11 @@ figcaption span {
 }
 
 
+/*
+		`````````````````````````
+			Contact section
+		`````````````````````````
+*/
 .social {
 	margin: 2rem auto;
 }
@@ -74,3 +85,37 @@ figcaption span {
 .submit {
 	text-align: center;
 }
+
+/*
+		`````````````````````````
+			 media queries
+		`````````````````````````
+*/
+@media (max-width: 1080px){ /*	for Android screen */
+	* {
+		font-size: 130%;
+	}
+	span {
+		padding: 0rem;
+		font-size: 80%;	
+	}
+	.navbar-brand h1 {
+		font-size: 220%;
+	}
+	.card label {
+		font-size: 110%;
+	}
+	.wrap {
+		font-size: 100%;
+	}
+	.social i {
+		font-size: 110%;
+	}
+}
+
+@media (max-width: 1020px){
+	* {
+		font-size: 120%;
+	}
+}
+
